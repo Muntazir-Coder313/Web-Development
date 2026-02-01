@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    .main{
+        width: 100%;
+        height: 10vh;
+        background-color: bisque;
+        /* position: fixed; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .log{
+        width: 25%;
+        height: inherit;
+        
+    }
+    .log img{
+        width: 80%;
+        height: 10vh;   
+    }
+    .primary{
+        width: 30%;
+        
+    }
+    .primary ul{
+        display: flex;
+        justify-content: space-evenly;
+       
+    }
+    li{
+         list-style-type: none;
+    }
+    a{
+         text-decoration: none;
+         font-size: 18px;
+    }
+    .search{
+        width: 15%;
+    }
+    .search input{
+        width: 100%;
+        height: 5vh;
+        border: none;
+    }
+    .main1{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../gettyimages-1426606619-640x640.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+        padding-bottom: 10px;
+    }
+    .main1 h1{
+        color: black;
+    }
+    .main2{
+        width: 100%;
+        height: 100vh;
+        background-color: aqua;
+    }
+    .sub1{
+        width: 100%;
+        /* height:100vh; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .sub1 .sb{
+        width: 23%;
+        height:50vh;
+        background-color: gold;
+     box-shadow: 1px 1px 12px rgb(3, 3, 3);
+
+
+    }
+        .sub2{
+        width: 100%;
+        /* height: 100vh; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      
+
+    }
+    .sub2 .sb{
+        width: 23%;
+        height: 50vh;
+        background-color: gold;
+     box-shadow: 1px 1px 12px rgb(3, 3, 3);
+
+         
+    }
+    .sb img{
+        width: 100%;
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+    }
+   
+    p{
+        font-size: 20px;
+        position: relative;
+        top: 10px;
+        text-align: center;
+    }
+    /* @media only screen and (max-width:1000px){
+    .sub1{
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+    }
+        .sub1{
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+    }
+    } */
+     .main3{
+        width: 100%;
+        height: 100vh;
+        background-color: burlywood;
+     }
+       /* @media only screen and (max-width:1100px) {
+        .sub1 , .sub2{
+        width: 100%;
+        height: inherit;
+        flex-direction: column;}
+        .main{
+            display: flex;
+            height: inherit;
+        }
+        .sb{
+            width: 95%;
+            margin-bottom: 20px;
+        }
+    }
+        @media only screen and (max-width:650px) {
+        .main{
+           flex-direction: column;
+            height: inherit;
+        }
+    }
+         */
+   
+   @media only screen and (max-width:1100px) {
+        .sub1 , .sub2{
+        width: 45%;
+        height: inherit;
+        flex-direction: column;}
+        .main2{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .main2 , .main3{
+            display: flex;
+            height: inherit;
+        }
+        .sub1 .sb {
+    width: 100%;
+margin-bottom: 20px;
+}
+
+        .sub2 .sb {
+    width: 100%;}
+
+
+
+    }
+    @media only screen and (max-width:650px) {
+        .main2 , .main3{
+           flex-direction: column;
+        
+        }
+        .sub1 , .sub2 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .sb img {
+    width: 100%;
+    height: 43vh;
+}
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="log"><img src="../images.png" alt="not fond"></div>
+        <div class="primary">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="search"><input type="search" placeholder="searching......"></div>
+    </div>
+    <div class="main1">
+        <h1>Full Stack Developer</h1>
+    </div>
+                    <h1>Our Product</h1>
+    <div class="main2">
+
+        <div class="sub1">
+    
+            <div class="sb"><img src="../Motorola-Moto-G-2025-222x300.jpg" alt=""><p><b>Name : Mobile Phone</b></p></div>
+            <div class="sb"><img src="../Motorola-Moto-G-2025-222x300.jpg" alt=""><p><b>Name : Mobile Phone</b></p></div>
+            <div class="sb"><img src="../Motorola-Moto-G-2025-222x300.jpg" alt=""><p><b>Name : Mobile Phone</b></p></div>
+            <div class="sb"><img src="../Motorola-Moto-G-2025-222x300.jpg" alt=""><p><b>Name : Mobile Phone</b></p></div>
+        </div>
+
+    
+                 <div class="sub2">
+            <div class="sb"><img src="../Motorola-Moto-G-2025-222x300.jpg" alt=""><p><b>Name : Mobile Phone</b></p></div>
+            <div class="sb"><img src="../Motorola-Moto-G-2025-222x300.jpg" alt=""><p><b>Name : Mobile Phone</b></p></div>
+            <div class="sb"><img src="../Motorola-Moto-G-2025-222x300.jpg" alt=""><p><b>Name : Mobile Phone</b></p></div>
+            <div class="sb"><img src="../Motorola-Moto-G-2025-222x300.jpg" alt=""><p><b>Name : Mobile Phone</b></p></div>
+        </div>
+    </div>
+</body>
+</html>
