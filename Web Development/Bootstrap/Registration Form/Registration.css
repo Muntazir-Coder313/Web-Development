@@ -1,0 +1,17 @@
+.sub{
+    background-image: url(../../../../tom-gainor-ZqLeQDjY6fY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+  .bta{
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .ab p{
+    margin-left: 130px;
+  }
+  a{
+    
+    text-decoration: none;
+  }
