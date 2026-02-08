@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buisness Website</title>
+</head>
+<style>
+            .main{
+        width: 100%;
+        height: 10vh;
+        /* position: fixed; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    .consult{
+        width: 30%;
+        height: inherit;
+        font-weight: bolder;
+        color: tomato;
+        font-size: 25px;  
+        position: relative;
+        bottom: 30px;      
+    }
+    .nav{
+        width: 50%;
+        
+    }
+    .nav ul{
+        display: flex;
+        justify-content: space-evenly;
+       
+    }
+    li{
+         list-style-type: none;
+    }
+    a{
+         text-decoration: none;
+         font-size: 20px;
+         color: rgb(3, 3, 101);
+    }
+        a:active{
+        color:red;
+    }
+        .main2{
+        width: 100%;
+        height: 90vh;
+        background-color: white;
+        display: flex;
+    }
+     .sub1{
+        width: 50%;
+        height: 90vh;
+        background-color: white;
+
+     }
+         .sub1 h1{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 60px;
+    }
+        .sub1 b{
+        color: rgb(239, 68, 38);
+        
+    }
+        .sub1 h2{
+        text-align: center;
+        font-size: 35px;
+        color: rgb(235, 73, 45);
+    }
+            .sub1 p{
+                font-size: 22px;
+        line-height: 35px;
+    }
+        .sub1 button{
+          width: 30%;
+          height: 9vh;
+          border-radius: 20px;
+          background-color: rgb(240, 92, 66);
+    }
+
+     .sub2{
+        width: 50%;
+        height: 90vh;
+        background-color: rgb(236, 87, 87);
+        flex-direction: column;
+
+     }
+     .sb1{
+        width: 60%;
+        height: 25vh;
+        position: relative;
+        left: 170px;
+        top: 30px;
+     }
+     .sb1 button{
+        width: 15%;
+        height: 9vh;
+        background-color: white;
+        border-radius: 50%;
+        position: relative;
+        right: 120px;
+        top: 100px;
+     }
+     .sb1 h1{
+        font-size: 40px;
+        color: blue;
+
+     }
+     .sb1 p{
+        font-size: 15px;
+        color: white;
+     }
+      h4{
+        font-size: 55px;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        position: relative;
+        top: 130px;
+     }
+     .main6{
+        width: 100%;
+        height: 15vh;
+        position: relative;
+        top: 210px;
+
+     }
+     .sup2{
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+     }
+     .sp5{
+        width: 30%;
+        height: 60vh;
+     }
+     .sp5 img{
+        width: 100%;
+        height: 50vh;
+     }
+      .main8{
+      width: 100%;
+      height: 40vh;
+      background-color: rgb(233, 61, 70);
+      position: relative;
+      top: 400px;
+     }
+     .main8 h1{
+      font-size: 70px;
+      text-align: center;
+     }
+     .main8 input{
+      width: 40%;
+      height: 8vh;
+      position: relative;
+      left: 350px;
+     }
+     .main8 button{
+      width: 10%;
+      height: 9vh;
+      color: white;
+      font-size: 18px;
+      background-color: rgb(1, 1, 42);
+      position: relative;
+      left: 345px;
+      }
+      .main9{
+      width: 100%;
+      height: 40vh;
+      background-color: rgb(11, 11, 62);
+      position: relative;
+      top: 400px;
+      display: flex;
+      justify-content: space-around;
+      opacity: 0.9;
+     }
+     .sup4{
+      width: 20%;
+      height: 40vh;
+      color: white;
+      line-height: 28px;
+      font-size: 18px;
+      /* position: relative;
+      right: 100px; */
+     }
+    .sup4 a{
+      color: white;
+     }
+     li{
+      list-style-type: none;
+     }
+     .sup4 button{
+      width: 13%;
+      height: 13vh;
+      background-color: rgb(237, 99, 99);
+      border-radius: 50%;
+      position: relative;
+      top: 20px;
+     }
+                                               /* <!-- Ending --> */
+     .main10{
+      width: 100%;
+      height: 10vh;
+      background-color: rgb(11, 11, 62);
+      text-align: center;
+      font-size: 20px;
+      color: white;
+      position: relative;
+      top: 400px;
+      opacity: 0.9;
+     }
+     .main10 p{
+      position: relative;
+      top: 10px;
+     }
+     .main1{
+        width: 100%;
+        height: 20vh;
+        background-color: rgb(1, 1, 45);
+        text-align: center;
+        opacity: 0.9;
+     }
+     .main1 a{
+        /* font-size: 40px; */
+        color: tomato ;
+        margin-left: 20px;
+     }
+      .main1 h1{
+        color: white;
+        font-size: 50px;
+     }
+          .main5{
+        width: 100%;
+        height: 100vh;
+        /* background-color: aqua; */
+        position: relative;
+        top: 380px;
+     }
+     .sup1{
+        width: 100%;
+        height: 70vh;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: space-around;
+
+     }
+     .sp4{
+        width: 50%;
+        height: 100vh;
+     }
+     .sp4 h1{
+        font-size: 37px;
+        font-weight: bolder;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+     .sp4 p{
+        font-size: 18px;
+        line-height: 25px;
+     }
+     .sp4 input{
+        width: 30%;
+        height: 7vh;
+        /* position: relative;
+        left: 20px; */
+        margin-left: 20px;
+     }
+     .sp4 select{
+        width: 31%;
+        height: 7vh;
+        /* position: relative;
+        top: 20px;
+        left: 20px; */
+        margin-left: 20px;
+        margin-top: 20px;     
+     }
+     .sp4 button{
+        width: 31%;
+        height: 7vh;
+        font-size: 20px;
+        background-color: rgb(235, 60, 60);
+        position: relative;
+        /* top: 20px; */
+        left: 20px;
+     }
+     
+</style>
+<body>
+                             <!-- Navigation -->
+       <div class="main">
+     <div class="consult"><h1><b>CONSULT</b></h1></div>
+    <div class="nav">
+        <ul>
+            <li><a href="../Web Project/Buisness Website Index.html"><b>HOME</b></a></li>
+            <li><a href="../Web Project/Buisness Website About.html"><b>ABOUT</b></a></li>
+            <li><a href="../Web Project/Buisness Website Service.html"><b>SERVICE</b></a></li>
+            <li><a href=""><b>PAGE</b></a></li>
+            <li><a href="../Web Project/Buisness Website Contact.html"><b>CONTACT</b></a></li>
+        </ul>
+    </div>
+   </div>
+                             <!-- About -->
+    <div class="main1">
+        <h1>About Us</h1>
+        <a href="../Web Project/Buisness Website Index.html">HOME</a>
+        <a href="../Web Project/Buisness Website About.html">ABOUT</a>
+    </div>
+                               <!-- Wellcome to Consultancy -->
+        <div class="main2">
+              <div class="sub1">
+             <h1>Welcome To <b> CONSULT</b></h1>
+         <h2>Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h2>
+         <p>Et stet ipsum nonumy rebum eos justo, accusam invidunt aliquyam stet magna at et sanctus,
+             vero sea sit amet dolores, sit dolor duo invidunt dolor, kasd rebum consetetur diam
+              invidunt erat stet. Accusam nonumy lorem kasd eirmod. Justo clita sadipscing ea invidunt rebum sadipscing
+               consetetur. Amet diam amet amet sanctus sanctus invidunt erat ipsum eirmod.</p>
+               <button>Get A Quot</button>
+              </div>
+              <div class="sub2">
+                <div class="sb1">
+                    <button></button>
+                    <h1>Business Planning</h1>
+                    <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p></div>
+                <div class="sb1">
+                    <button></button>
+                    <h1>Financial Analaysis</h1>
+                    <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p></div>
+                <div class="sb1">
+                    <button></button>
+                    <h1>legal Advisory</h1>
+                    <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p></div>
+              </div> 
+    </div>
+                           <!-- Our Team Members -->
+    <h4>Our Team Members</h4>
+    <div class="main6">
+  <div class="sup2">
+    <div class="sp5"><img src="../Web Project Ideas/Full webside/img/team-1.jpg" alt=""></div>
+    <div class="sp5"><img src="../Web Project Ideas/Full webside/img/team-2.jpg" alt=""></div>
+    <div class="sp5"><img src="../Web Project Ideas/Full webside/img/team-3.jpg" alt=""></div>
+  </div>
+
+</div>
+                           <!-- Stay Update   -->
+<div class="main8">
+         <h1>Stay Update!!!</h1>
+         <input type="email" required placeholder="Your Email">
+         <button>Sign Up</button>
+      </div>
+      <div class="main9">
+         <div class="sup4">
+            <h1>Quick Links</h1>
+         <ul>
+            <li><a href="../Web Project/Buisness Website Index.html">HOME</a></li>
+            <li><a href="../Web Project/Buisness Website About.html">ABOUT</a></li>
+            <li><a href="../Web Project/Buisness Website Service.html">SERVICE</a></li>
+            <li><a href="#">PAGE</a></li>
+            <li><a href="../Web Project/Buisness Website Contact.html">CONTACT</a></li>
+         </ul></div>
+         <div class="sup4">
+            <h1>Popular Links</h1>
+         <ul>
+            <li><a href="../Web Project/Buisness Website Index.html">HOME</a></li>
+            <li><a href="../Web Project/Buisness Website About.html">ABOUT</a></li>
+            <li><a href="../Web Project/Buisness Website Service.html">SERVICE</a></li>
+            <li><a href="#">PAGE</a></li>
+            <li><a href="../Web Project/Buisness Website Contact.html">CONTACT</a></li>
+         </ul></div>
+         <div class="sup4">
+            <h1>Get In Touch</h1>
+            <p>Pakistan GB <br>muntazirma21@gmail.com</p>
+         </div>
+         <div class="sup4">
+            <h1>Follow Us</h1>
+            <button></button>
+            <button></button>
+            <button></button>
+         </div>
+      </div>
+                                          <!-- Ending -->
+      <div class="main10">
+         <p><i>© Your Site Name. All Rights Reserved. Designed by Muntazir Mehdi</i></p>
+      </div>
+</body>
+</html>

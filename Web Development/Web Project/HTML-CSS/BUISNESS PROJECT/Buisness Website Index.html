@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buisness Website</title>
+</head>
+  <!-- <link rel="stylesheet" href="../Web Project/Buisness Website About.html">
+  <link rel="stylesheet" href="../Web Project/Buisness Website Contact.html">
+  <link rel="stylesheet" href="../Web Project/Buisness Website Service.html"> -->
+<style>
+                                      /* <!-- Navigation bar --> */
+        .main{
+        width: 100%;
+        height: 10vh;
+        /* position: fixed; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    .consult{
+        width: 30%;
+        height: inherit;
+        font-weight: bolder;
+        color: tomato;
+        font-size: 25px;  
+        position: relative;
+        bottom: 30px;  
+        transition: 1s;    
+    }
+    .consult:hover{
+      color: black;
+      cursor: pointer;
+    }
+    .nav{
+        width: 50%;
+        
+    }
+    .nav ul{
+        display: flex;
+        justify-content: space-evenly; 
+       
+    }
+    li{
+         list-style-type: none;
+    }
+    a{
+         text-decoration: none;
+         font-size: 20px;
+         color: rgb(3, 3, 101);
+    }
+        a:active{
+        color:red;
+    }
+    /* a:visited{
+        color: tomato;
+    } */
+     @media(max-width:768px){
+  .nav ul{
+    flex-direction:column;
+    align-items:center;
+  }
+  .main1 h1{
+    font-size:34px;
+  }
+}
+
+@media(max-width:480px){
+  section{
+    padding:40px 20px;
+  }
+}
+                                     /* <!-- Consultancy --> */
+     .main1-layer{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+     }
+    .main1{
+        width: 100%;
+        height: 100vh;
+        background-image: url(./Image/carousel-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+        opacity: 0.8;
+    }
+    .main1 p{
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        position: relative;
+        top: 210px;
+    }
+    .main1 h1{
+        font-size: 60px;
+        text-align: center;
+        color: white;
+        position: relative;
+        top: 210px;
+        
+    }
+    .main1 button{
+        width: 13%;
+        height: 9vh;
+        font-size: 20px;
+        border-radius: 20px;
+        position: relative;
+        left: 500px;
+        top: 210px;
+        margin-left: 22px;
+        box-shadow: 1px 1px 2px aqua;
+        transition: 1s;
+    }
+    .main1 button:hover{
+       background-color:coral;
+       color: white;
+       cursor: pointer;
+    }
+@media only screen and (max-width: 1000px){
+      .main1{
+       width:400% ;  
+       height: 100vh;
+      }
+    }
+                              /* <!--  Wellcome to Consult --> */
+    .main2{
+        width: 100%;
+        height: 90vh;
+        background-color: white;
+        display: flex;
+    }
+     .sub1{
+        width: 50%;
+        height: 90vh;
+        background-color: white;
+
+     }
+         .sub1 h1{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 60px;
+    }
+        .sub1 b{
+        color: rgb(239, 68, 38);
+        
+    }
+        .sub1 h2{
+        text-align: center;
+        font-size: 35px;
+        color: rgb(235, 73, 45);
+    }
+            .sub1 p{
+                font-size: 22px;
+        line-height: 35px;
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+        .sub1 button{
+          width: 30%;
+          height: 9vh;
+          border-radius: 20px;
+          background-color: rgb(240, 92, 66);
+          box-shadow: 1px 2px 2px black;
+          transition: 1s;
+    }
+    .sub1 button:hover{
+      color: white;
+      background-color: black;
+      cursor: pointer;
+    }
+
+     .sub2{
+        width: 50%;
+        height: 90vh;
+        background-color: rgb(236, 87, 87);
+        flex-direction: column;
+
+     }
+     .sb1{
+        width: 60%;
+        height: 25vh;
+        position: relative;
+        left: 170px;
+        top: 30px;
+     }
+     .sb1 button{
+        width: 15%;
+        height: 9vh;
+        background-color: white;
+        border-radius: 50%;
+        position: relative;
+        right: 120px;
+        top: 100px;
+     }
+     .sb1 h1{
+        font-size: 40px;
+        color: blue;
+
+     }
+     .sb1 p{
+        font-size: 22px;
+        color: white;
+        text-align: justify;
+     }
+     
+@media only screen and (max-width: 1000px){
+      .main2{
+         width: 200%;
+         height: inherit;
+         flex-direction: column;
+      }
+      .sub1  , .sub2{
+         width: 200%;
+         
+        
+      }
+      
+     }
+     @media only screen and (max-width: 650px){
+      .main2{
+         width: 200%;
+         height: inherit;
+         flex-direction: column;
+      }
+      .sub1  , .sub2{
+        width: 200%;
+        height: 100vh;
+        
+      }
+      
+     }
+                                      /* <!-- What We Offer --> */
+     .main3{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+     }   
+       .main3 h1{
+        text-align: center;
+        font-size: 55px;
+        position: relative;
+        top: 30px;
+     }
+     .sub3{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+     }
+     .sp{
+        width: 30%;
+        height: 60vh;
+        background-color: whitesmoke;
+        text-align: center;
+        border-radius: 20px;
+        transition: 1s;
+     }
+     .sp:hover{
+        height: 58vh;
+        background-color: wheat;
+        cursor: pointer;
+     }
+     .sp button{
+    width: 16%;
+    height: 16vh;
+    border: none;
+    background-color: rgb(245, 43, 43);
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+     }
+     .sp h1{
+    position: relative;
+    top: 30px;
+    font-size: 37px;
+     }
+     .sp p{
+    font-size: 20px;
+    position: relative;
+    top: 35px;
+    line-height: 35px;
+    text-align: justify;
+    padding: 10px;
+     } 
+        h6{
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+        top: 300px;
+     }
+@media only screen and (max-width: 1000px){
+      .main3{
+         width: 100%;
+         height: inherit;
+         flex-direction: column;
+      }
+      .sub3 , .sp{
+         width: 400%;
+         margin-left: 20px;
+         
+      }
+      
+     }
+     @media only screen and (max-width: 650px){
+      .main3{
+         width: 100%;
+         height: inherit; 
+         flex-direction: column;
+      }
+      .sub3 , .sp{
+        width: 200%;
+        height: 200vh;
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-left: 250px;
+      }
+      
+     }
+      
+     
+                                     /* <!-- Why Choose Us!!! --> */
+     .main4{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        top: 280px;
+
+     }
+     .sp1{
+        width: 30%;
+        height: 100vh;
+        background-color: white;
+     }
+     .sup p{
+    font-size: 17px;
+    padding: 10px;
+    line-height: 25px;
+     }
+     .sp2{
+        width: 30%;
+        height: 100vh;
+        background-color: rgb(237, 99, 99);
+        border-radius: 20px;
+     }
+     .sp3{
+        width: 30%;
+        height: 100vh;
+        background-color: white;
+     }
+     .sp1 button{
+        width: 13%;
+        height: 13vh;
+        border: none;
+        background-color: rgb(240, 69, 69);
+        border-radius: 50%;
+     }
+         .sp3 button{
+        width: 13%;
+        height: 13vh;
+        border: none;
+        background-color: rgb(240, 69, 69);
+        border-radius: 50%;
+     }
+     .sp2 img{
+        width: 100%;
+        height: 50vh;
+        box-shadow: 2px 2px 3px black;
+        border-radius: 20px;
+        transition: 1s;
+     }
+     .sp2 img:hover{
+      height: 52vh;
+      cursor: pointer;
+     }
+     .sp2 p{
+        font-size: large;
+        line-height: 30px;
+        text-align: center;
+        text-align: justify;
+        position: relative;
+        top: 10px;
+     }
+     .sp2 button{
+        width: 40%;
+        height: 8vh;
+        background-color:white;
+        border-radius: 50px;
+        position: relative;
+        left: 150px;
+        top: 10px;
+        box-shadow: 2px 1px 2px black;
+       transition: 1s;
+     }
+       .sp2 button:hover{
+      background-color: aqua;
+      color: white;
+      cursor: pointer;
+     }
+  
+     @media only screen and (max-width: 1000px){
+      .main4{
+         width: 100%;
+         height: inherit;
+         flex-direction: column;
+      }
+      .sp1 , .sp2 , .sp3{
+        width: 400%;
+        margin-left: 2700px;
+        align-items: center;
+      }
+      
+     }
+     @media only screen and (max-width: 650px){
+      .main4{
+         width: 100%;
+         height: inherit; 
+         flex-direction: column;
+      }
+      .sp1 , .sp2 , .sp3{
+        width: 400%;
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-left: 1150px;
+      }
+      
+     }
+                                     /* <!-- Request A Free Quote --> */
+     .main5{
+        width: 100%;
+        height: 100vh;
+        /* background-color: aqua; */
+        position: relative;
+        top: 380px;
+     }
+     .sup1{
+        width: 100%;
+        height: 70vh;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: space-around;
+
+     }
+     .sp4{
+        width: 50%;
+        height: 100vh;
+     }
+     .sp4 h1{
+        font-size: 37px;
+        font-weight: bolder;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+     .sp4 p{
+        font-size: 18px;
+        line-height: 25px;
+        text-align: justify;
+     }
+     .sp4 input{
+        width: 30%;
+        height: 7vh;
+        /* position: relative;
+        left: 20px; */
+        margin-left: 20px;
+        box-shadow: 2px 2px 2px black;
+        transition: 1s;
+     }
+     .sp4 input:hover{
+       width: 32%;
+       /* background-color: cyan; */
+       /* color: tomato; */
+       cursor: pointer;
+     }
+     .sp4 select{
+        width: 31%;
+        height: 7vh;
+        /* position: relative;
+        top: 20px;
+        left: 20px; */
+        margin-left: 20px;
+        margin-top: 20px; 
+        box-shadow: 2px 2px 2px black;
+        transition: 1s;    
+     }
+          .sp4 select:hover{
+       width: 32%;
+       /* background-color: cyan; */
+       /* color: tomato; */
+       cursor: pointer;
+     }
+     .sp4 button{
+        width: 31%;
+        height: 7vh;
+        font-size: 20px;
+        background-color: rgb(235, 60, 60);
+        position: relative;
+        /* top: 20px; */
+        left: 20px;
+        box-shadow: 2px 1px 3px black;
+        transition: 1s;
+     }
+          .sp4 button:hover{
+       width: 32%;
+       background-color: black;
+       color: white;
+       cursor: pointer;
+     }
+     h4{
+        font-size: 55px;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        position: relative;
+        top: 130px;
+     }
+     .sp4 img{
+
+      border-radius: 20px;
+       box-shadow: 2px 2px 3px black;
+     }
+       @media only screen and (max-width: 1000px){
+      .main5{
+         width: 100%;
+         height: inherit;
+         flex-direction: column;
+      }
+      .sup1 , .sp4{
+        width: 400%;
+        margin-left: 20px;
+
+      }
+      
+     }
+     
+     @media only screen and (max-width: 650px){
+      .main5{
+        width: 400%;
+        height: 120vh;
+        flex-direction: column;
+        
+      }
+      .sup1 , .sp4{
+        width: 95%;
+        height: 100vh;
+        flex-direction: column;
+        margin-bottom: 30px;
+        
+      }
+      .sp4 img{
+        width: 100%;
+        height: 40vh;
+      }
+      .h3{
+         position: relative;
+         top: 270px;
+      }
+     }
+
+                                    /* <!-- Our Team Members --> */
+     .main6{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 210px;
+
+     }
+     .sup2{
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+     }
+     .sp5{
+        width: 30%;
+        height: 60vh;
+     }
+     .sp5 img{
+        width: 100%;
+        height: 50vh;
+        box-shadow: 2px 2px 5px black;
+        border-radius: 20px;
+        transition: 1s;
+     }
+     .sp5 img:hover{
+      /* width: ; */
+      height: 55vh;
+      cursor: pointer;
+     }
+     .sp6{
+        width: 70%;
+        height: 30vh;
+     }
+     .sp6 img{
+        width: 70%;
+        height: 60vh;
+        border-radius: 20px;
+        position: relative;
+        right: 3%;
+        top: 80px;
+        box-shadow: 2px 2px 5px black;
+        transition: 1s;
+     }
+          .sp6 img:hover{
+      /* width: ; */
+      height: 65vh;
+      cursor: pointer;
+     }
+     .sp0 h3{
+        font-size: 40px;
+        position: relative;
+        right: 320px;
+        top: 200px;
+     }
+          h3{
+        font-size: 55px;
+        text-align: center;
+        position: relative;
+        top: 350px;
+     }
+           @media only screen and (max-width: 1000px){
+      .main6{
+         width: 100%;
+         height: inherit;
+         flex-direction: column;
+      }
+      .sup2 , .sp5{
+        width: 400%;
+        margin-left: 20px;
+        margin-top: 120px;
+    }
+
+      
+                  .sp6{
+         width: 100%;
+         height: 40vh;
+                 margin-top: -140px;
+      }
+     }
+          @media only screen and (max-width: 650px){
+      .main6{
+         width: 100%;
+         height: inherit; 
+         flex-direction: column;
+      }
+      .sup2 , .sp5{
+        width: 200%;
+        height: 300vh;
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-left: 240px;
+        
+      }
+            .sp6{
+        width: 220%;
+        height: 250vh;
+        margin-left: 480px;
+      }
+      .sp0 h3{
+        font-size: 110px;
+        position: relative;
+        right: -50px;
+        top: -1250px;
+      }
+      /* h4{
+         margin-left: 500px;
+      } */
+     }
+                                     /* <!-- Latest Blog Post --> */
+     .main7{
+      width: 100%;
+      height: 70vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+      top: 270px;
+     }
+     .sup3{
+      width: 30%;
+      height: 40vh;
+      border-radius: 20px;
+     }
+     .sup3 img{
+      width: 100%;
+      height: 40vh;
+      border-radius: 20px;
+      box-shadow: 2px 2px 5px black;
+      transition: 1s;
+     }
+     .sup3 img:hover{
+      height: 45vh;
+      cursor: pointer;
+     }
+     .sm1{
+         width: 80%;
+         height: 20vh;
+         display: flex;
+         justify-content: space-around;
+         position: relative;
+         left: 70px;
+     }
+     
+      .sm1 p{
+         font-size: larger;
+         transition: 1s;
+      }
+      .sm1 p:hover{
+         color: aqua;
+         cursor: pointer;
+      }
+            .sm1 h5{
+         font-size: larger;
+         transition: 1s;
+      }
+      .sm1 h5:hover{
+         color: aqua;
+         cursor: pointer;
+      }
+     .sm2{
+         width: 20%;
+         height: 20vh;
+         background-color: rgb(245, 43, 43);
+         position: relative;
+         bottom: 170px;
+     }
+     .sm2 h1{
+      font-size: 25px;
+      position: relative;
+      top: 20px;
+      transition: 1s;
+     }
+     .sm2 h1:hover{
+      color: aqua;
+      cursor: pointer;
+     }
+                @media only screen and (max-width: 1000px){
+      .main7{
+         width: 100%;
+         height: inherit;
+         flex-direction: column;
+      }
+      .sup3{
+        width: 400%;
+        margin-left: 900px;
+        margin-bottom: 420px;
+      }
+      
+     }
+          @media only screen and (max-width: 650px){
+      .main7{
+         width: 100%;
+         height: inherit; 
+         flex-direction: column;
+      }
+      .sup3{
+       width: 400%;
+        height: 74vh;
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-left: 1100px;
+        
+      }
+      /* .h3{
+         margin-left: 900px;
+      } */
+   }
+                                     /* <!-- Stay Update!!! --> */
+     .main8{
+      width: 100%;
+      height: 40vh;
+      background-color: rgb(233, 61, 70);
+      position: relative;
+      top: 400px;
+     }
+     .main8 h1{
+      font-size: 70px;
+      text-align: center;
+      transition: 1s;
+     }
+     .main8 h1:hover{
+      color: white;
+      cursor: pointer;
+     }
+     .main8 input{
+      width: 40%;
+      height: 8vh;
+      position: relative;
+      left: 350px;
+      box-shadow: 2px 2px 2px black;
+      transition: 1s;
+     }
+           .main8 input:hover{
+         width: 42%;
+         cursor: pointer;
+      }
+     .main8 button{
+      width: 10%;
+      height: 9vh;
+      color: white;
+      font-size: 18px;
+      border-radius: 10px;
+      background-color: rgb(1, 1, 42);
+      position: relative;
+      left: 345px;
+      transition: 1s;
+      }
+      .main8 button:hover{
+         background-color: aqua;
+         color: black;
+         cursor: pointer;
+      }
+      .main9{
+      width: 100%;
+      height: 40vh;
+      background-color: rgb(11, 11, 62);
+      position: relative;
+      top: 400px;
+      display: flex;
+      justify-content: space-around;
+      opacity: 0.9;
+     }
+     .sup4 {
+      width: 20%;
+      height: 40vh;
+      color: white;
+      line-height: 28px;
+      font-size: 18px;
+      /* position: relative;
+      right: 100px; */
+     }
+     .sup4 a{
+      color: white;
+     }
+     li{
+      list-style-type: none;
+     }
+     .sup4 button{
+      width: 13%;
+      height: 13vh;
+      background-color: rgb(237, 99, 99);
+      border-radius: 50%;
+      position: relative;
+      top: 20px;
+     }
+      @media only screen and (max-width: 1000px){
+    .main8{
+        width: 400%;
+        height: 50vh;
+      }
+      
+     }
+     @media only screen and (max-width: 650px){
+      .main8{
+        width: 400%;
+        flex-direction: column;
+      }
+   }
+                        @media only screen and (max-width: 1000px){
+      .main9{
+         width: 400%;
+         height: inherit;
+      }
+      .sup4{
+         width: 200%;
+         margin-left: 20px;
+         margin-bottom: 120px;
+      }
+      
+     }
+          @media only screen and (max-width: 650px){
+      .main9{
+        width: 400%;
+        height: inherit;
+        flex-direction: column;
+      }
+      .sup4{
+        width: 200%;
+        height: 20vh;
+        flex-direction: column;
+        margin-bottom: 30px;
+                margin-left: 150px;
+      }
+   }
+
+   
+                                               /* <!-- Ending --> */
+     .main10{
+      width: 100%;
+      height: 10vh;
+      background-color: rgb(11, 11, 62);
+      text-align: center;
+      font-size: 20px;
+      color: white;
+      position: relative;
+      top: 400px;
+      opacity: 0.9;
+     }
+     .main10 p{
+      position: relative;
+      top: 10px;
+     }
+                          @media only screen and (max-width: 1000px){
+      .main10{
+         width:400%;
+         flex-direction: column;
+      }
+      
+     }
+          @media only screen and (max-width: 650px){
+      .main10{
+        width: 400%;
+        flex-direction: column;
+      }
+   }
+</style> 
+<body>
+                             <!-- Navigation bar -->
+   <div class="main">
+     <div class="consult"><h1><b>CONSULT</b></h1></div>
+    <div class="nav">
+        <ul>
+            <li><a href="../Web Project/Buisness Website Index.html"><b>HOME</b></a></li>
+            <li><a href="../Web Project/Buisness Website About.html"><b>ABOUT</b></a></li>
+            <li><a href="../Web Project/Buisness Website Service.html"><b>SERVICE</b></a></li>
+            <li><a href=""><b>PAGE</b></a></li>
+            <li><a href="../Web Project/Buisness Website Contact.html"><b>CONTACT</b></a></li>
+        </ul>
+    </div>
+   </div>
+                                <!-- Consultancy -->
+          <div class="main1-layer">
+             <div class="main1">
+    <p>BUSINESS CONSULTANCY</p>
+    <h1>We Provide Solution On <br> Your Business</h1>
+    <button>Get Quote</button>
+    <button>Contact Us</button>
+</div>
+          </div>
+                          <!--  Wellcome to Consult -->
+    <div class="main2">
+              <div class="sub1">
+             <h1>Welcome To <b> CONSULT</b></h1>
+         <h2>Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h2>
+         <p>Et stet ipsum nonumy rebum eos justo, accusam invidunt aliquyam stet magna at et sanctus,
+             vero sea sit amet dolores, sit dolor duo invidunt dolor, kasd rebum consetetur diam
+              invidunt erat stet. Accusam nonumy lorem kasd eirmod. Justo clita sadipscing ea invidunt rebum sadipscing
+               consetetur. Amet diam amet amet sanctus sanctus invidunt erat ipsum eirmod.</p>
+               <button>Get A Quot</button>
+              </div>
+              <div class="sub2">
+                <div class="sb1">
+                    <button></button>
+                    <h1>Business Planning</h1>
+                    <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p></div>
+                <div class="sb1">
+                    <button></button>
+                    <h1>Financial Analaysis</h1>
+                    <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p></div>
+                <div class="sb1">
+                    <button></button>
+                    <h1>legal Advisory</h1>
+                    <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p></div>
+              </div> 
+    </div>
+                                 <!-- What We Offer -->
+    <div class="main3">
+        <h1>What We Offer</h1>
+        <div class="sub3">
+            <div class="sp">
+                <button></button>
+                <h1>Business Research</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+            </div>
+            <div class="sp">
+                <button></button>
+                <h1>Stretagic Planning</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+            </div>
+            <div class="sp">
+                <button></button>
+                <h1>Market Analysis</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+            </div>
+        </div>
+        <div class="sub3">
+             <div class="sp">
+                <button></button>
+                <h1>Financial Analaysis</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+            </div>
+             <div class="sp">
+                <button></button>
+                <h1>legal Advisory</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+            </div>
+             <div class="sp">
+                <button></button>
+                <h1>Tax & Insurance</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+            </div>
+        </div>
+    </div>
+                                <!-- Why Choose Us!!! -->
+    <h6>Why Choose Us!!!</h6>                         
+    <div class="main4">
+     
+<div class="sp1">
+        <div class="sup">
+            <button></button>
+            <h1>Best In Industry</h1>
+            <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p></div>
+                 
+        <div class="sup">
+            <button></button>
+            <h1>99% Success Rate</h1>
+            <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p></div>
+        
+        <div class="sup">
+            <button></button>
+            <h1>Award Winning</h1>
+            <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p></div>
+</div>
+<div class="sp2">      
+        <div class="sup">
+            <img src="./Image/feature.jpg" alt="">
+        </div>
+        <div class="sup">
+            <p>Clita nonumy sanctus nonumy et clita tempor,
+             et sea amet ut et sadipscing rebum amet takimata amet, sed accusam eos eos dolores dolore et.
+             Et ea ea dolor rebum invidunt clita eos. Sea accusam stet stet ipsum, sit ipsum et ipsum kasd</p>
+             <button>Learn More</button></div>
+</div>
+<div class="sp3">
+        <div class="sup">
+            <button></button>
+            <h1>100% Happy Client</h1>
+            <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p></div>        
+        <div class="sup"
+        ><button></button>
+        <h1>Professional Advisors</h1>
+        <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p></div>
+        <div class="sup">
+            <button></button>
+            <h1>24/7 Customer Support</h1>
+            <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p></div>
+    </div>
+</div>
+                                <!-- Request A Free Quote -->
+<div class="main5">
+    <div class="sup1">
+        <div class="sp4">
+            <h1>Request A Free Quote</h1>
+            <p>Kasd vero erat ea amet justo no stet, et elitr no dolore no elitr sea kasd et dolor diam tempor.
+                 Nonumy sed dolore no eirmod sit nonumy vero lorem amet stet diam at. Ea at lorem sed et,
+                  lorem et rebum ut eirmod gubergren, dolor ea duo diam justo dolor diam ipsum dolore stet stet elitr ut.
+                 Ipsum amet labore lorem lorem diam magna sea, eos sed dolore elitr.</p>
+                 <input type="text" placeholder="Full Name">
+                 <input type="email"placeholder="Email Adress"><br>
+                 <select name="" id="">
+                <option value="">Finanical Consultancy</option>
+                <option value="">Strategy Consultancy</option>
+                <option value="">tax Consultancy</option>
+                 </select>
+                 <button>Request Quote</button>
+        </div>
+        <div class="sp4">
+            <img src="./Image/blog-1.jpg" alt="">
+        </div>
+    </div>
+</div>
+                               <!-- Our Team Members -->
+<h4>Our Team Members</h4>
+<div class="main6">
+  <div class="sup2">
+    <div class="sp5"><img src="./Image/team-1.jpg" alt=""></div>
+    <div class="sp5"><img src="./Image/team-2.jpg" alt=""></div>
+    <div class="sp5"><img src="./Image/team-3.jpg" alt=""></div>
+  </div>
+  <div class="sup2">
+    <div class="sp6"><img src="./Image/testimonial.jpg" alt=""></div>
+    <div class="sp0"><h3>What Say Our Client!!!</h3></div>
+  </div>
+</div>
+                                <!-- Latest Blog Post -->
+      <h3>Latest Blog Post</h3>
+      <div class="main7">
+      <div class="sup3">
+            <img src="./Image/blog-1.jpg" alt="">            
+      <div class="sm1">
+         <div class="sap1">       
+            <h5>ADMIN WEB DESIGN</h5>
+            <p><b>Magna sea dolor ipsum amet lorem eos</b></p>
+         </div>
+
+         </div>
+         <div class="sm2">
+       <div class="sap2"><h1>01 <br> Jan <br> 2026</h1></div>
+       </div>
+      </div>
+         <div class="sup3">
+            <img src="./Image/blog-2.jpg" alt="">            
+      <div class="sm1">
+          <div class="sap1">            
+            <h5>ADMIN WEB DESIGN</h5>
+            <p><b>Magna sea dolor ipsum amet lorem eos</b></p>
+         </div>
+
+         </div> 
+         <div class="sm2">
+                 <div class="sap2"><h1>01 <br> Jan <br> 2026</h1></div>
+                 </div>
+         </div>
+      <div class="sup3">
+         <img src="./Image/blog-3.jpg" alt="">
+         <div class="sm1">
+          <div class="sap1">            
+            <h5>ADMIN WEB DESIGN</h5>
+            <p><b>Magna sea dolor ipsum amet lorem eos</b></p>
+
+          </div>
+         </div>
+         <div class="sm2">
+            <div class="sap2"><h1>01 <br> Jan <br> 2026</h1></div>
+            </div>
+      </div>
+            
+      </div>
+                               <!-- Stay Update!!! -->
+      <div class="main8">
+         <h1>Stay Update!!!</h1>
+         <input type="email" required placeholder="Your Email">
+         <button>Sign Up</button>
+      </div>
+      <div class="main9">
+         <div class="sup4">
+            <h1>Quick Links</h1>
+         <ul>
+            <li><a href="../Web Project/Buisness Website Index.html">HOME</a></li>
+            <li><a href="../Web Project/Buisness Website About.html">ABOUT</a></li>
+            <li><a href="../Web Project/Buisness Website Service.html">SERVICE</a></li>
+            <li><a href="#">PAGE</a></li>
+            <li><a href="../Web Project/Buisness Website Contact.html">CONTACT</a></li>
+         </ul></div>
+         <div class="sup4">
+            <h1>Popular Links</h1>
+         <ul>
+            <li><a href="../Web Project/Buisness Website Index.html">HOME</a></li>
+            <li><a href="../Web Project/Buisness Website About.html">ABOUT</a></li>
+            <li><a href="../Web Project/Buisness Website Service.html">SERVICE</a></li>
+            <li><a href="#">PAGE</a></li>
+            <li><a href="../Web Project/Buisness Website Contact.html">CONTACT</a></li>
+         </ul></div>
+         <div class="sup4">
+            <h1>Get In Touch</h1>
+            <p>Pakistan GB <br>muntazirma21@gmail.com <br> +923045963153</p>
+         </div>
+         <div class="sup4">
+            <h1>Follow Us</h1>
+            <button></button>
+            <button></button>
+            <button></button>
+         </div>
+      </div>
+                                          <!-- Ending -->
+      <div class="main10">
+         <p><i>© Your Site Name. All Rights Reserved. Designed by Muntazir Mehdi</i></p>
+      </div>
+</body>
+</html>
+

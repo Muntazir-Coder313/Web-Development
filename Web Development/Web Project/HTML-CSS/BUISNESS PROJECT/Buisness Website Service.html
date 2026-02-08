@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buisness Website</title>
+</head>
+  <style>
+     .main{
+        width: 100%;
+        height: 10vh;
+        /* position: fixed; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    .consult{
+        width: 30%;
+        height: inherit;
+        font-weight: bolder;
+        color: tomato;
+        font-size: 25px;  
+        position: relative;
+        bottom: 30px;      
+    }
+    .nav{
+        width: 50%;
+        
+    }
+    .nav ul{
+        display: flex;
+        justify-content: space-evenly;
+       
+    }
+    li{
+         list-style-type: none;
+    }
+    a{
+         text-decoration: none;
+         font-size: 20px;
+         color: rgb(3, 3, 101);
+    }
+        a:active{
+        color:red;
+    }
+         .main3{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+     }   
+       .main3 h1{
+        text-align: center;
+        font-size: 55px;
+        position: relative;
+        top: 30px;
+     }
+     .sub3{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+     }
+     .sp{
+        width: 30%;
+        height: 60vh;
+        background-color: whitesmoke;
+        text-align: center;
+        /* transition: 1s; */
+     }
+     /* .sp:hover{
+        height: 59vh;
+     } */
+     .sp button{
+    width: 16%;
+    height: 16vh;
+    background-color: rgb(245, 43, 43);
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+     }
+     .sp h1{
+    position: relative;
+    top: 30px;
+    font-size: 37px;
+     }
+     .sp p{
+        font-size: larger;
+        position: relative;
+        top: 35px;
+        line-height: 25px;
+     } 
+        h6{
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+        top: 300px;
+     }
+     .main1{
+        width: 100%;
+        height: 20vh;
+        background-color: rgb(1, 1, 45);
+        text-align: center;
+        opacity: 0.9;
+     }
+     .main1 a{
+        /* font-size: 40px; */
+        color: tomato ;
+        margin-left: 20px;
+     }
+      .main1 h1{
+        color: white;
+        font-size: 50px;
+     }
+
+          .main5{
+        width: 100%;
+        height: 100vh;
+        /* background-color: aqua; */
+        position: relative;
+        top: 380px;
+     }
+     .sup1{
+        width: 100%;
+        height: 70vh;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: space-around;
+
+     }
+     .sp4{
+        width: 50%;
+        height: 100vh;
+     }
+     .sp4 h1{
+        font-size: 37px;
+        font-weight: bolder;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+     .sp4 p{
+        font-size: 18px;
+        line-height: 25px;
+     }
+     .sp4 input{
+        width: 30%;
+        height: 7vh;
+        /* position: relative;
+        left: 20px; */
+        margin-left: 20px;
+     }
+     .sp4 select{
+        width: 31%;
+        height: 7vh;
+        /* position: relative;
+        top: 20px;
+        left: 20px; */
+        margin-left: 20px;
+        margin-top: 20px;     
+     }
+     .sp4 button{
+        width: 31%;
+        height: 7vh;
+        font-size: 20px;
+        background-color: rgb(235, 60, 60);
+        position: relative;
+        /* top: 20px; */
+        left: 20px;
+     }
+          .main8{
+      width: 100%;
+      height: 40vh;
+      background-color: rgb(233, 61, 70);
+      position: relative;
+      top: 400px;
+     }
+     .main8 h1{
+      font-size: 70px;
+      text-align: center;
+     }
+     .main8 input{
+      width: 40%;
+      height: 8vh;
+      position: relative;
+      left: 350px;
+     }
+     .main8 button{
+      width: 10%;
+      height: 9vh;
+      color: white;
+      font-size: 18px;
+      background-color: rgb(1, 1, 42);
+      position: relative;
+      left: 345px;
+      }
+      .main9{
+      width: 100%;
+      height: 40vh;
+      background-color: rgb(11, 11, 62);
+      position: relative;
+      top: 400px;
+      display: flex;
+      justify-content: space-around;
+      opacity: 0.9;
+     }
+     .sup4{
+      width: 20%;
+      height: 40vh;
+      color: white;
+      line-height: 28px;
+      font-size: 18px;
+      /* position: relative;
+      right: 100px; */
+     }
+    .sup4 a{
+      color: white;
+     }
+     li{
+      list-style-type: none;
+     }
+     .sup4 button{
+      width: 13%;
+      height: 13vh;
+      background-color: rgb(237, 99, 99);
+      border-radius: 50%;
+      position: relative;
+      top: 20px;
+     }
+                                               /* <!-- Ending --> */
+     .main10{
+      width: 100%;
+      height: 10vh;
+      background-color: rgb(11, 11, 62);
+      text-align: center;
+      font-size: 20px;
+      color: white;
+      position: relative;
+      top: 400px;
+      opacity: 0.9;
+     }
+     .main10 p{
+      position: relative;
+      top: 10px;
+     }
+  </style>
+<body>
+       <div class="main">
+     <div class="consult"><h1><b>CONSULT</b></h1></div>
+    <div class="nav">
+        <ul>
+            <li><a href="../Web Project/Buisness Website Index.html"><b>HOME</b></a></li>
+            <li><a href="../Web Project/Buisness Website About.html"><b>ABOUT</b></a></li>
+            <li><a href="../Web Project/Buisness Website Service.html"><b>SERVICE</b></a></li>
+            <li><a href=""><b>PAGE</b></a></li>
+            <li><a href="../Web Project/Buisness Website Contact.html"><b>CONTACT</b></a></li>
+        </ul>
+    </div>
+   </div>
+       <div class="main1">
+        <h1>Services</h1>
+        <a href="../Web Project/Buisness Website Index.html">HOME</a>
+        <a href="../Web Project/Buisness Website Service.html">SERVICE</a>
+    </div>
+       <div class="main3">
+        <h1>What We Offer</h1>
+        <div class="sub3">
+            <div class="sp">
+                <button></button>
+                <h1>Business Research</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+            </div>
+            <div class="sp">
+                <button></button>
+                <h1>Stretagic Planning</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+            </div>
+            <div class="sp">
+                <button></button>
+                <h1>Market Analysis</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+            </div>
+        </div>
+        <div class="sub3">
+             <div class="sp">
+                <button></button>
+                <h1>Financial Analaysis</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+            </div>
+             <div class="sp">
+                <button></button>
+                <h1>legal Advisory</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+            </div>
+             <div class="sp">
+                <button></button>
+                <h1>Tax & Insurance</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+            </div>
+        </div>
+    </div>
+    <div class="main5">
+    <div class="sup1">
+        <div class="sp4">
+            <h1>Request A Free Quote</h1>
+            <p>Kasd vero erat ea amet justo no stet, et elitr no dolore no elitr sea kasd et dolor diam tempor.
+                 Nonumy sed dolore no eirmod sit nonumy vero lorem amet stet diam at. Ea at lorem sed et,
+                  lorem et rebum ut eirmod gubergren, dolor ea duo diam justo dolor diam ipsum dolore stet stet elitr ut.
+                 Ipsum amet labore lorem lorem diam magna sea, eos sed dolore elitr.</p>
+                 <input type="text" placeholder="Full Name">
+                 <input type="email"placeholder="Email Adress"><br>
+                 <select name="" id="">
+                <option value="">Finanical Consultancy</option>
+                <option value="">Strategy Consultancy</option>
+                <option value="">tax Consultancy</option>
+                 </select>
+                 <button>Request Quote</button>
+        </div>
+        <div class="sp4">
+            <img src="../Web Project Ideas/Full webside/img/blog-1.jpg" alt="">
+        </div>
+    </div>
+</div>
+      <div class="main8">
+         <h1>Stay Update!!!</h1>
+         <input type="email" required placeholder="Your Email">
+         <button>Sign Up</button>
+      </div>
+      <div class="main9">
+         <div class="sup4">
+            <h1>Quick Links</h1>
+         <ul>
+            <li><a href="../Web Project/Buisness Website Index.html">HOME</a></li>
+            <li><a href="../Web Project/Buisness Website About.html">ABOUT</a></li>
+            <li><a href="../Web Project/Buisness Website Service.html">SERVICE</a></li>
+            <li><a href="#">PAGE</a></li>
+            <li><a href="../Web Project/Buisness Website Contact.html">CONTACT</a></li>
+         </ul></div>
+         <div class="sup4">
+            <h1>Popular Links</h1>
+         <ul>
+            <li><a href="../Web Project/Buisness Website Index.html">HOME</a></li>
+            <li><a href="../Web Project/Buisness Website About.html">ABOUT</a></li>
+            <li><a href="../Web Project/Buisness Website Service.html">SERVICE</a></li>
+            <li><a href="#">PAGE</a></li>
+            <li><a href="../Web Project/Buisness Website Contact.html">CONTACT</a></li>
+         </ul></div>
+         <div class="sup4">
+            <h1>Get In Touch</h1>
+            <p>Pakistan GB <br>muntazirma21@gmail.com</p>
+         </div>
+         <div class="sup4">
+            <h1>Follow Us</h1>
+            <button></button>
+            <button></button>
+            <button></button>
+         </div>
+      </div>
+                                          <!-- Ending -->
+      <div class="main10">
+         <p><i>© Your Site Name. All Rights Reserved. Designed by Muntazir Mehdi</i></p>
+      </div>
+</body>
+</html>
