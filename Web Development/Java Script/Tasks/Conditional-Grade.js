@@ -1,3 +1,4 @@
+// Conditional Grading System
 let grade="Grade";
 let marks= 100;
 if(marks>=95 && marks<=100){

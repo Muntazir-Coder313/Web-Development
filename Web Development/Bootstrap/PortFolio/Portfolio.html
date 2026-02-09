@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muntazir Mehdi Portfolio</title>
+    
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+</head>
+<style>
+  *{
+    background-color: rgb(1, 1, 20);
+    padding: 0%;
+    margin: 0%;
+}
+</style>
+<body>
+    
+
+  <section id="Home">
+  <div class="bg">
+    <div class="container-fluid">
+<header class="transition-all duration-300 py-3">
+
+       <nav class=" navbar navbar-expand-lg fixed-top shadow-lg" 
+     >
+  <div class="container-fluid py-3">
+    
+    <!-- Logo/Brand Name -->
+    <a class="navbar-brand text-primary fw-bold fs-3" href="#">
+      Muntazir <span class="text-white">Mehdi</span>
+    </a>
+
+    <!-- Mobile Toggler Button -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon px-2 py-2 bg-light rounded-2"></span>
+    </button>
+
+    <!-- Navigation Links & Buttons -->
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4">
+        <!-- Links are centered using mx-auto and evenly spaced with gap-lg-4 -->
+        <li class="nav-item">
+          <a class="nav-link active text-white fw-medium" aria-current="page" href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white-emphasis " href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#Services">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#Project">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Call to Action Buttons (Hidden on mobile navbar toggle, visible on desktop) -->
+      <div class="d-flex flex-column flex-lg-row gap-3 mt-3 mt-lg-0">
+        <a href="#" class="btn btn-outline-light rounded-pill px-4 fw-semibold">Resume</a>
+        <a href="#" class="btn btn-primary rounded-pill px-4 fw-semibold shadow">Let's Talk</a>
+      </div>
+    </div>
+
+  </div>
+</nav>
+  
+</div>
+
+
+
+  <!-- Parent must have min-vh-100 to fill the screen -->
+<div class="container min-vh-100 d-flex flex-column bg-dark text-white">
+  
+  <!-- The row uses h-100 to fill the parent and align-items-center to center vertically -->
+  <div class="row align-items-center g-5 flex-grow-1">
+    
+    <!-- Image: Appears at the TOP on mobile (order-0), RIGHT on desktop (order-md-1) -->
+    <div class="col-12 col-md-5 text-center order-0 order-md-1">
+      <img src="../../../../../My Pics/1756950310032.jpg" class="img-fluid rounded-circle border border-primary border-4 p-2 shadow-lg" style="max-width: 500px;">
+    </div>
+
+    <!-- Text content -->
+    <div class="col-12 col-md-7 text-center text-md-start">
+      <h5 class="text-primary fw-bold">Hello Everyone, I Am</h5>
+      <h1 class="display-2 fw-bold mb-3">Muntazir <span class="text-primary">Mehdi</span></h1>
+      <p class="h3 fw-light text-secondary mb-5">Web Designer & Developer</p>
+      
+      <div class="d-grid d-lg-flex gap-4 justify-content-md-start">
+        <button class="btn btn-primary btn-lg rounded-pill px-5 fw-bold shadow">My Work</button>
+        <button class="btn btn-outline-light btn-lg rounded-pill px-5 fw-bold">⬇️ Resume</button>
+        <button class="btn btn-outline-light btn-lg rounded-pill px-5 fw-bold"> Contact</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
+<section id="About">
+<div class="container py-5 ">
+  <div class="row align-items-center g-5">
+    
+    <!-- Image Column -->
+    <div class="col-12 col-md-5">
+      <!-- Use img-fluid and object-fit for a sharp look -->
+      <img src="../IMAGE/Code bg.jpg" alt="Work Environment" 
+           class="img-fluid rounded-5 shadow-lg border border-secondary border-opacity-25" 
+           style="height: 450px; width: 100%; object-fit: cover;">
+    </div>
+
+    <!-- Text Content Column -->
+    <div class="col-12 col-md-7">
+      <h2 class="text-white display-6 fw-bold mb-4">How About Me?</h2>
+      
+      <p class="text-secondary fs-5 lh-lg mb-4">
+        I am a passionate and dedicated <span class="text-primary fw-semibold">Full Stack Developer</span> with expertise in 
+        <span class="text-info">HTML , CSS , JS , BOOTSTRAP , NODE.js , EXPRESS.js , MONGODB ,REACT.js....</span>
+        building custom websites, React.js applications, and backend systems using Node.js, MongoDB, and RESTful APIs.
+      </p>
+      
+      <h4 class="text-white h5 fw-bold mb-4 border-start border-primary border-4 ps-3">
+        Providing All Types of Services & Open Discussions
+      </h4>
+
+      <!-- Buttons Grid: Logic-based grouping using Flexbox -->
+      <div class="row g-3 mb-4">
+        <div class="col-6 col-sm-auto">
+          <button class="btn btn-outline-primary w-100 rounded-3 px-4 py-2 fw-semibold">Programming</button>
+        </div>
+        <div class="col-6 col-sm-auto">
+          <button class="btn btn-outline-primary w-100 rounded-3 px-4 py-2 fw-semibold">Web Design</button>
+        </div>
+        <div class="col-6 col-sm-auto">
+          <button class="btn btn-outline-primary w-100 rounded-3 px-4 py-2 fw-semibold">UI/UX</button>
+        </div>
+        <div class="col-6 col-sm-auto">
+          <button class="btn btn-outline-primary w-100 rounded-3 px-4 py-2 fw-semibold">Consultation</button>
+        </div>
+      </div>
+
+      <p class="text-secondary mb-0">
+        We offer a variety of services tailored to your needs with a focus on quality and client satisfaction. Our platform encourages open discussions to ensure clear communication and the best possible outcomes.
+      </p>
+    </div>
+
+  </div>
+</div>
+</section>
+
+
+
+<section class="py-5  overflow-hidden" id="Services">
+  <div class="container py-5">
+    
+    <!-- Title Section -->
+    <div class="text-center mb-5 pb-lg-4">
+      <h1 class="display-3 fw-bold text-white mb-3">My Services</h1>
+      <div class="d-flex justify-content-center">
+        <span class="badge rounded-pill bg-primary bg-opacity-10 text-primary px-4 py-2 border border-primary border-opacity-25">
+          Solutions for Next-Gen Businesses
+        </span>
+      </div>
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      
+      <!-- Card 1: Mobile Development -->
+      <div class="col">
+        <div class="card h-100 bg-dark border-0 rounded-5 p-4 position-relative overflow-hidden" 
+             style="background: rgba(255, 255, 255, 0.03) !important; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1) !important;">
+          <div class="card-body d-flex flex-column">
+            <!-- Decorative Icon Glow -->
+            <div class="bg-primary bg-opacity-25 rounded-4 d-flex align-items-center justify-content-center mb-4" style="width: 60px; height: 60px; box-shadow: 0 0 20px rgba(13, 110, 253, 0.3);">
+              <span class="fs-2">📱</span>
+            </div>
+            <h3 class="h4 text-white fw-bold mb-3">Mobile App Development</h3>
+            <p class="text-secondary flex-grow-1 lh-base">
+              Expert mobile development for iOS and Android platforms, creating <span class="text-primary fw-medium">intuitive</span> and feature-rich applications that users love.
+            </p>
+            <button class="btn btn-primary rounded-pill py-3 fw-bold shadow-sm mt-4">Book a Call</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: React/Next.js -->
+      <div class="col">
+        <div class="card h-100 bg-dark border-0 rounded-5 p-4 position-relative overflow-hidden" 
+             style="background: rgba(255, 255, 255, 0.03) !important; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1) !important;">
+          <div class="card-body d-flex flex-column">
+            <div class="bg-info bg-opacity-25 rounded-4 d-flex align-items-center justify-content-center mb-4" style="width: 60px; height: 60px; box-shadow: 0 0 20px rgba(13, 202, 240, 0.3);">
+              <span class="fs-2">⚛️</span>
+            </div>
+            <h3 class="h4 text-white fw-bold mb-3">React & Next.js Coding</h3>
+            <p class="text-secondary flex-grow-1 lh-base">
+              Modern web development using <span class="text-info fw-medium">Next.js</span>, ensuring lightning-fast performance, SEO optimization, and flawless responsiveness.
+            </p>
+            <button class="btn btn-info text-white rounded-pill py-3 fw-bold shadow-sm mt-4">View Tech Stack</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: UI/UX -->
+      <div class="col">
+        <div class="card h-100 bg-dark border-0 rounded-5 p-4 position-relative overflow-hidden" 
+             style="background: rgba(255, 255, 255, 0.03) !important; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1) !important;">
+          <div class="card-body d-flex flex-column">
+            <div class="bg-warning bg-opacity-25 rounded-4 d-flex align-items-center justify-content-center mb-4" style="width: 60px; height: 60px; box-shadow: 0 0 20px rgba(255, 193, 7, 0.3);">
+              <span class="fs-2">🎨</span>
+            </div>
+            <h3 class="h4 text-white fw-bold mb-3">UI/UX Strategy Design</h3>
+            <p class="text-secondary flex-grow-1 lh-base">
+              Creating beautiful, <span class="text-warning fw-medium">user-centric</span> interfaces that reduce bounce rates and drive meaningful business engagement.
+            </p>
+            <button class="btn btn-primary text-white rounded-pill py-3 fw-bold shadow-sm mt-4">Start Discussion</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      
+
+    </div>
+  </div>
+</section>
+
+
+
+
+       <div class="row container-fluid gap-5 ps-5 ">
+        <div class="col-sm-12 col-md-6  mt-5">
+            <h2 class="text-white">Create Bold Solutions And Forward Looking</h2>
+            <p class="text-white">We believe in crafting bold, innovative solutions that drive growth and success. Our approach is forward-looking, focusing on future trends and lasting impact. By combining creativity and strategy, we deliver results that meet today's needs while preparing you for tomorrow's challenges. Let's build a brighter future together!</p>             
+      <div class="row g-3 mb-4">
+        <div class="col-6 col-sm-auto">
+          <button class="btn btn-outline-primary w-100 rounded-3 px-4 py-2 fw-semibold">Programming</button>
+        </div>
+        <div class="col-6 col-sm-auto">
+          <button class="btn btn-outline-primary w-100 rounded-3 px-4 py-2 fw-semibold">Web Design</button>
+        </div>
+        <div class="col-6 col-sm-auto">
+          <button class="btn btn-outline-primary w-100 rounded-3 px-4 py-2 fw-semibold">UI/UX</button>
+        </div>
+        <div class="col-6 col-sm-auto">
+          <button class="btn btn-outline-primary w-100 rounded-3 px-4 py-2 fw-semibold">Consultation</button>
+        </div>
+      </div>
+            </div>      
+            <div class="col-sm-12 col-md-5">
+                <img src="../IMAGE/Web dev.jpg" alt="not found" class="w-100 h-75 rounded">
+        </div>
+       </div>
+
+
+
+
+       <h1 class="text-white text-center">My Selected Work</h1>
+     
+
+<section id="Project">
+  <div class="container-fluid ">
+  <!-- row-cols for responsiveness, g-4 for spacing -->
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="card h-100 bg-dark border border-secondary border-opacity-25 rounded-5 shadow-lg overflow-hidden">
+        <div class="p-3">
+            <img src="../IMAGE/Tour.jpg" class="card-img-top rounded-5 object-fit-cover" alt="Tour" style="height: 220px;">
+        </div>
+        <div class="card-body text-center d-flex flex-column p-4">
+          <h4 class="card-title text-white fw-bold mb-3">Tour Website</h4>
+          <p class="card-text text-secondary mb-4 flex-grow-1">Bespoke travel platforms with high-resolution galleries and seamless booking integration.</p>
+          <a href="#" class="btn btn-primary btn-lg rounded-pill fw-semibold py-3 shadow-sm">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card h-100 bg-dark border border-secondary border-opacity-25 rounded-5 shadow-lg overflow-hidden">
+        <div class="p-3">
+            <img src="../IMAGE/Ecomerce.jpg" class="card-img-top rounded-5 object-fit-cover" alt="Ecommerce" style="height: 220px;">
+        </div>
+        <div class="card-body text-center d-flex flex-column p-4">
+          <h4 class="card-title text-white fw-bold mb-3">Ecommerce Store</h4>
+          <p class="card-text text-secondary mb-4 flex-grow-1">Fast, secure, and conversion-optimized online stores built for modern retail brands.</p>
+          <a href="#" class="btn btn-primary btn-lg rounded-pill fw-semibold py-3 shadow-sm">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col">
+      <div class="card h-100 bg-dark border border-secondary border-opacity-25 rounded-5 shadow-lg overflow-hidden">
+        <div class="p-3">
+            <img src="../IMAGE/Blogs.jpg" class="card-img-top rounded-5 object-fit-cover" alt="Blog" style="height: 220px;">
+        </div>
+        <div class="card-body text-center d-flex flex-column p-4">
+          <h4 class="card-title text-white fw-bold mb-3">Premium Blog</h4>
+          <p class="card-text text-secondary mb-4 flex-grow-1">Elegant, SEO-ready content hubs designed for readability and maximum audience reach.</p>
+          <a href="#" class="btn btn-primary btn-lg rounded-pill fw-semibold py-3 shadow-sm">View Project</a>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
+    
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="card h-100 bg-dark border border-secondary border-opacity-25 rounded-5 shadow-lg overflow-hidden">
+        <div class="p-3">
+            <img src="../Image/Plumber.jpg" class="card-img-top rounded-5 object-fit-cover" alt="Tour" style="height: 220px;">
+        </div>
+        <div class="card-body text-center d-flex flex-column p-4">
+          <h4 class="card-title text-white fw-bold mb-3">Plumber Website</h4>
+          <p class="card-text text-secondary mb-4 flex-grow-1">Reliable plumbing solutions using modern tools and quality materials. Built for efficiency, safety, and long-term performance..</p>
+          <a href="#" class="btn btn-primary btn-lg rounded-pill fw-semibold py-3 shadow-sm">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card h-100 bg-dark border border-secondary border-opacity-25 rounded-5 shadow-lg overflow-hidden">
+        <div class="p-3">
+            <img src="../Image/Guest House.jpg" class="card-img-top rounded-5 object-fit-cover" alt="Ecommerce" style="height: 220px;">
+        </div>
+        <div class="card-body text-center d-flex flex-column p-4">
+          <h4 class="card-title text-white fw-bold mb-3">Guest House Website</h4>
+          <p class="card-text text-secondary mb-4 flex-grow-1">Comfortable stays with clean rooms, modern amenities, and reliable services.</p>
+          <a href="#" class="btn btn-primary btn-lg rounded-pill fw-semibold py-3 shadow-sm">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col">
+      <div class="card h-100 bg-dark border border-secondary border-opacity-25 rounded-5 shadow-lg overflow-hidden">
+        <div class="p-3">
+            <img src="../Image/Digital Marketing.jpg" class="card-img-top rounded-5 object-fit-cover" alt="Blog" style="height: 220px;">
+        </div>
+        <div class="card-body text-center d-flex flex-column p-4">
+          <h4 class="card-title text-white fw-bold mb-3">Digital Marketing Agency</h4>
+          <p class="card-text text-secondary mb-4 flex-grow-1">We grow brands through data-driven digital marketing and creative strategy..</p>
+          <a href="#" class="btn btn-primary btn-lg rounded-pill fw-semibold py-3 shadow-sm">View Project</a>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+<!-- Use min-vh-100 to ensure the section covers the full screen height from the top -->
+  <!-- container-fluid for full-width scaling -->
+  <div class="container-fluid py-5 px-md-5">
+    
+    <!-- Title Section: Added responsive margin-bottom (mb-5) -->
+    <div class="text-center mb-5">
+      <p class="text-primary fw-bold text-uppercase mb-2">Our Workflow</p>
+      <h1 class="display-3 fw-bold text-white mb-3">How The Process Of Work</h1>
+      <div class="bg-primary mx-auto rounded-pill" style="width: 100px; height: 6px;"></div>
+    </div>
+
+    <!-- Fluid Grid with standard Bootstrap gutters (g-4) -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      
+      <!-- Card 1: Branding -->
+      <div class="col">
+        <div class="card h-100 bg-white bg-opacity-10 border border-white border-opacity-10 rounded-5 p-4 shadow-lg">
+          <div class="card-body d-flex flex-column">
+            <div class="bg-primary bg-opacity-25 rounded-4 d-flex align-items-center justify-content-center mb-4 shadow" style="width: 65px; height: 65px;">
+              <span class="fs-2">🔍</span>
+            </div>
+            <h3 class="h4 text-white fw-bold mb-3">Branding & Research</h3>
+            <p class="text-white-50 flex-grow-1 lh-base fs-5">
+             Strategic insights and audience analysis to build a unique identity that stands out in competitive markets.
+            </p>
+            <button class="btn btn-primary rounded-pill py-3 fw-bold mt-4 shadow">Book a Call</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Development -->
+      <div class="col">
+        <div class="card h-100 bg-white bg-opacity-10 border border-white border-opacity-10 rounded-5 p-4 shadow-lg">
+          <div class="card-body d-flex flex-column">
+            <div class="bg-info bg-opacity-25 rounded-4 d-flex align-items-center justify-content-center mb-4 shadow" style="width: 65px; height: 65px;">
+              <span class="fs-3 text-info fw-bold">&lt;/&gt;</span>
+            </div>
+            <h3 class="h4 text-white fw-bold mb-3">Development</h3>
+            <p class="text-white-50 flex-grow-1 lh-base fs-5">
+              Scalable, high-performance solutions built with modern tech stacks ensuring security and user satisfaction.
+            </p>
+            <button class="btn btn-info text-white rounded-pill py-3 fw-bold mt-4 shadow">View Tech Stack</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Final Product -->
+      <div class="col">
+        <div class="card h-100 bg-white bg-opacity-10 border border-white border-opacity-10 rounded-5 p-4 shadow-lg">
+          <div class="card-body d-flex flex-column">
+            <div class="bg-warning bg-opacity-25 rounded-4 d-flex align-items-center justify-content-center mb-4 shadow" style="width: 65px; height: 65px;">
+              <span class="fs-2">🚀</span>
+            </div>
+            <h3 class="h4 text-white fw-bold mb-3">Final Products</h3>
+            <p class="text-white-50 flex-grow-1 lh-base fs-5">
+              Delivering ready-to-use, high-quality solutions designed to meet your business needs and make a lasting impact.
+            </p>
+            <button class="btn btn-primary rounded-pill py-3 fw-bold mt-4 shadow">Start Discussion</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+<section id="Skills" style="background: #0f172a;"> <!-- Dark background for contrast -->
+    <div class="row container-fluid gap-5 ps-5 ">
+        <div class="col-sm-12 col-md-5 mt-5">
+            <!-- Semi-bold heading with tracking (letter-spacing) -->
+            <h1 class="text-white fw-bold ls-tight" style="letter-spacing: -1px;">My Personal Expertise</h1>
+            <!-- Muted text opacity for better hierarchy -->
+            <p class="text-white-50 lh-lg mt-3">With a strong foundation in full-stack web development, React.js, and Node.js, I specialize in creating scalable, user-friendly solutions. My expertise also extends to custom WordPress development, API integrations, and design systems.</p>
+        </div>      
+        
+        <div class="col-sm-12 col-md-5">
+            <!-- Custom list styling: No bullets, subtle border-left for a modern look -->
+            <ul class="list-unstyled text-white mt-5" style="border-left: 2px solid #38bdf8; padding-left: 1.5rem;">
+                <li class="mb-2 fs-5 fw-light">Full-Stack Web Development</li>
+                <li class="mb-2 fs-5 fw-light">Node.js Backend Development</li>
+                <li class="mb-2 fs-5 fw-light">API Integrations</li>
+                <li class="mb-2 fs-5 fw-light">Frontend & Backend Integration</li>
+                <li class="mb-2 fs-5 fw-light">RESTful API Development</li>
+                <li class="mb-2 fs-5 fw-light">E-commerce Solutions</li>
+                <li class="mb-2 fs-5 fw-light">React.js Development</li>
+                <li class="mb-2 fs-5 fw-light">Custom WordPress Development</li>
+                <li class="mb-2 fs-5 fw-light">Tailwind CSS for Styling</li>
+                <li class="mb-2 fs-5 fw-light">Database Management (MongoDB)</li>
+                <li class="mb-2 fs-5 fw-light">Design Systems</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+       <div class="row container-fluid gap-5 ps-5 ">
+        <div class="col-sm-12 col-md-6  mt-5 py-3 fs-5">
+            <h2 class="text-white">I Create Product Not Just Art</h2>
+            <p class="text-white">I focus on building functional, impactful products that solve real problems. While art inspires, my priority is to create innovative, user-centered solutions that are not only visually appealing but also efficient and effective. Every project I work on is designed to deliver tangible value and long-term success.</p>             
+                   <div class="bg-secondary bg-opacity-10 border-start border-primary border-4 p-4 rounded-3">
+                <p class="h5 fw-light text-white italic mb-0">
+                    "Every Problem Is A Gift, Without Problems We Will Not Grow"
+                </p>
+            </div>
+            </div>      
+            <div class="col-sm-12 col-md-5">
+                <img src="../Image/Art.jpg" alt="not found" class="w-100 h-50 rounded">
+        </div>
+       </div>
+
+
+
+       
+
+
+
+
+
+
+
+    <script src="../JS/bootstrap.min.js"></script>
+</body>
+</html>
