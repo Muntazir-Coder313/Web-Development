@@ -10,6 +10,6 @@ switch (operator) {
         console.log("Mul");
         break;
     default:
-        console.log("Invalid Operator");
+      console.log("Invalid Operator");
         break;
 }
