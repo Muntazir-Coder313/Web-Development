@@ -18,4 +18,4 @@ do{
     }
   j++
     
-}while(j<10)
+}while(j<=10)
