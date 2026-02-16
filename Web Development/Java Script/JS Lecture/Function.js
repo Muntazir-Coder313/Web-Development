@@ -35,4 +35,4 @@ function div(a,b){
    return a/b;
 }
 let result2=div(100,20);
-console.log(result2);
+console.log(result2); 
