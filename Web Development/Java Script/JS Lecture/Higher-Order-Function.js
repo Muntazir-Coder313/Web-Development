@@ -10,7 +10,7 @@
 //     return f(g(a));
 //   }
 // }
-// var result=compose(add,mul)(4);
+// var result=compose(mul,add)(4);
 // console.log(result);
 
 
