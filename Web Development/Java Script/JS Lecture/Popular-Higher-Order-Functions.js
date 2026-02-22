@@ -81,9 +81,106 @@
 //  console.log(h);
 
 
- // Entries
- console.log("===========Entries ===========");
-let h=[1,2,3,4,5];
-for (let [index, value] of h.entries()) {
-  console.log(index, value);
-}
+//  Entries
+//  console.log("===========Entries ===========");
+// let h=[1,2,3,4,5];
+// for (let [index, value] of h.entries()) {
+//   console.log(index, value);
+// }
+
+
+// console.log("===========Entries ===========");
+// let h=[1,2,3,4,5];
+// let iterator = h.entries();
+// console.log(iterator.next().value);
+
+
+// FindIndex
+// console.log("===========FindIndex ===========");
+// let h=[1,2,3,4,5];
+// let iterator = h.findIndex((num)=> num===1);
+// console.log(iterator);
+
+// Keys
+// console.log("===========Keys ===========");
+// let h=[1,2,3,4,5];
+// let iterator = h.keys();
+// console.log(iterator.next().value);
+
+
+// Values
+// console.log("===========Values ===========");
+// let h=[1,2,3,4,5];
+// let iterator = h.values();
+// console.log(iterator.next().value);
+
+
+// Includes
+// console.log("===========Includes ===========");
+// let h=[1,2,3,4,5];
+// let hasThree = h.includes(0);
+//  console.log(hasThree);
+
+
+// IndexOf
+// console.log("===========IndexOf ===========");
+// let h=[1,2,3,4,5];
+// let index = h.indexOf(3);
+//  console.log(index);
+
+
+// LastIndexOf
+// console.log("===========LastIndexOf ===========");
+// let h=[1,2,3,4,5,3];
+// let lastIndex = h.lastIndexOf(3);
+//  console.log(lastIndex);
+
+
+
+// Join
+// console.log("===========Join ===========");
+// let h=[1,2,3,4,5];
+// let joined=h.join("-");
+// console.log(joined);
+
+
+// Reverse
+// console.log("===========Reverse ===========");
+// let h=[1,2,3,4,5];
+// h.reverse();
+// console.log(h);
+
+
+// Slice
+// console.log("===========Slice ===========");
+// let h=[1,2,3,4,5];
+// let sliced=h.slice(1,4);
+// console.log(sliced);
+
+
+// Splice
+// console.log("===========Splice ===========");
+// let h=[1,2,3,4,5];
+// h.splice(1,2);
+// console.log(h);
+
+
+// Sort
+// console.log("===========Sort ===========");
+// let h=[1,2,3,4,5];
+// h.sort((a,b)=>a-b);
+// console.log(h);
+
+
+// Flat
+// console.log("===========Flat ===========");
+// let h=[1,2,[3,4],5];
+// let flat=h.flat();
+// console.log(flat);
+
+
+// FlatMap
+console.log("===========FlatMap ===========");
+let h=[1,2,[3,4],5];
+let flatmap=h.flatMap((num)=>[num*2]);
+console.log(flatmap);
