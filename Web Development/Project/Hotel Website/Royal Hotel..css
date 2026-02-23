@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ===== NAVBAR ===== */
+.navbar{
+    background-color: #1b1b1b !important;
+    padding: 15px 5%;
+}
+
+/* ===== HERO SECTION ===== */
+.bg{
+    position: relative;
+    height: 100vh;
+    background: url('./Img/Royal Hotel.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dark overlay */
+.bg::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+/* Content */
+.hero-content{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    animation: fadeUp 1.5s ease;
+}
+
+/* Title */
+.hero-content h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+/* Paragraph */
+.hero-content p{
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+
+/* Button */
+.btn-custom{
+    margin-top: 25px;
+    padding: 12px 35px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    background: linear-gradient(45deg,#7d0404,#c31432);
+    border: none;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btn-custom:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(255,255,255,0.3);
+    background: linear-gradient(45deg,#000,#333);
+}
+
+/* Animation */
+@keyframes fadeUp{
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px){
+
+    .hero-content h1{
+        font-size: 2.3rem;
+    }
+
+    .hero-content p{
+        font-size: 1rem;
+    }
+
+    .btn-custom{
+        padding: 10px 25px;
+        font-size: 1rem;
+    }
+}
+.about{
+    padding: 60px 5%;
+    background-color: #40413f;
+    text-align: center;
+    color: white;
+}
+.about h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: rgb(102, 122, 238);
+}
+.about p{
+    font-size: 1.2rem;
+    color: rgb(206, 237, 202);
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about p::first-letter{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c31432;
+}
+.img{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+/* ===== SERVICES SECTION ===== */
+
+.services-section{
+    padding: 80px 5%;
+    background: linear-gradient(135deg,#2c2c2c,#1b1b1b);
+    color: #fff;
+}
+
+/* Title */
+.section-title h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #c31432;
+}
+
+.section-title p{
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+/* Card */
+.service-card{
+    background:#2f2f2f;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.4s ease;
+    height:100%;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(195,20,50,0.4);
+}
+
+/* Image */
+.service-img{
+    overflow:hidden;
+    height:220px;
+}
+
+.service-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:0.5s ease;
+}
+
+.service-card:hover .service-img img{
+    transform:scale(1.1);
+}
+
+/* Content */
+.service-content{
+    padding:20px;
+    text-align:center;
+}
+
+.service-content h3{
+    font-size:1.4rem;
+    margin-bottom:15px;
+    color:#667aee;
+}
+
+.service-content p{
+    font-size:0.95rem;
+    color:#ddd;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .section-title h2{
+        font-size:2rem;
+    }
+
+    .service-img{
+        height:200px;
+    }
+}
+/* ===== GALLERY SECTION ===== */
+
+.gallery-section{
+    padding: 80px 5%;
+    background: linear-gradient(135deg,#1c1c1c,#111);
+    color: #fff;
+}
+
+/* Section Title */
+.section-title h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #c31432;
+}
+
+.section-title p{
+    color: #ccc;
+    font-size: 1.1rem;
+}
+
+/* Card */
+.gallery-card{
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+.gallery-card img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+/* Overlay */
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s ease;
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay h4{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #ffd700;
+}
+
+.overlay p{
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+/* Hover Effects */
+.gallery-card:hover img{
+    transform: scale(1.1);
+}
+
+.gallery-card:hover .overlay{
+    opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px){
+    .gallery-card img{
+        height: 220px;
+    }
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact-section{
+    padding: 80px 5%;
+    background: linear-gradient(135deg,#1b1b1b,#111);
+    color: #fff;
+}
+
+.contact-section .section-title h2{
+    font-size: 2.5rem;
+    color: #c31432;
+    margin-bottom: 10px;
+}
+
+.contact-section .section-title p{
+    color: #ccc;
+    font-size: 1.1rem;
+}
+
+/* Card Style */
+.contact-card{
+    background: #2f2f2f;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+}
+
+.contact-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(195,20,50,0.4);
+}
+
+/* Form Inputs */
+.contact-card input,
+.contact-card textarea{
+    background: #1b1b1b;
+    border: 1px solid #444;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    transition: 0.3s ease;
+}
+
+.contact-card input:focus,
+.contact-card textarea:focus{
+    border-color: #c31432;
+    outline: none;
+}
+
+/* Button */
+.contact-card .btn-primary{
+    background: #c31432;
+    border: none;
+    transition: 0.5s ease;
+}
+
+.contact-card .btn-primary:hover{
+    background: #fff;
+    color: #c31432;
+    box-shadow: 0 0 15px #c31432;
+}
+
+/* Contact Info Card */
+.contact-info-card h4{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #ffd700;
+}
+
+.contact-info-card h5{
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.contact-info-card p{
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 8px;
+}
+
+/* Social Icons */
+.social-links a{
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.social-links a:hover{
+    color: #c31432;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .contact-card{
+        padding: 20px;
+    }
+    .contact-section .section-title h2{
+        font-size: 2rem;
+    }
+}
+.footer-section{
+    background: #111;
+    color: #ccc;
+}
+
+.footer-section h5{
+    color: #ffd700;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.footer-section p{
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.social-links a{
+    color: #fff;
+    margin: 0 8px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.social-links a:hover{
+    color: #c31432;
+}
+
+.footer-copy{
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 10px;
+}
