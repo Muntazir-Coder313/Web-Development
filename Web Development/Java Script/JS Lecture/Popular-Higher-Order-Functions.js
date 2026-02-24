@@ -1,16 +1,16 @@
 // // Map
-// console.log("===========Map ===========");
-// let a=[1,2,3,4,5];
-// let map=a.map((a)=> a*a)
-//     console.log(map);
+console.log("===========Map ===========");
+let a=[1,2,3,4,5];
+let map=a.map((a)=> a*a)
+    console.log(map);
 
 
 
 // // Filter
-// console.log("===========Filter ===========");
-// let b=[1,2,3,4,5];
-// let even=b.filter((num)=> num%2===0)
-//     console.log(even);
+console.log("===========Filter ===========");
+let b=[1,2,3,4,5];
+let even=b.filter((num)=> num%2===0)
+    console.log(even);
 
 
 
@@ -180,7 +180,7 @@
 
 
 // FlatMap
-console.log("===========FlatMap ===========");
-let h=[1,2,[3,4],5];
-let flatmap=h.flatMap((num)=>[num*2]);
-console.log(flatmap);
+// console.log("===========FlatMap ===========");
+// let h=[1,2,[3,4],5];
+// let flatmap=h.flatMap((num)=>[num*2]);
+// console.log(flatmap);
