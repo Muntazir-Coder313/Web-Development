@@ -18,7 +18,6 @@ console.log("cars :", cars);
 console.log("new_cars :", new_cars);
 
 
-
 let car = ['Benz', 'Innova', 'Breeza', 'Etios', 'Dzire'];
 car.splice(2, 0, 'ambassedor', 'BMW', 'Audi');
 console.log("cars :", car);
