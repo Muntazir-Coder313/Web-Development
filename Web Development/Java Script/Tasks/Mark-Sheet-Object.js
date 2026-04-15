@@ -1,24 +1,3 @@
-// let students=[
-//     {
-//         names:"ali",
-//         marks:{
-//         sc:75,
-//         mt:85,
-//         ud:65
-//         },
-//         gm:function(){
-//             let totl=this.marks.sc+this.marks.mt+this.marks.ud;
-//             const tto=300;
-//             let perc=(totl/tto)*100;
-//             return `name:${this.names} | tm:${tto} | om:${totl} | per:${perc.toFixed(2)}%;`
-//         }
-        
-//     }
-// ]
-// students.forEach(students=>{
-//     console.log(students.gm());
-    
-// })
 let students=[
     {
         Names:"Muhammad",
